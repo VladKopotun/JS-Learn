@@ -79,6 +79,7 @@ function setScrollToOptions() {
     bahavior: "smooth",
   });
 }
+
 // Опции не работают в Safari
 
 //?----------------------------------------
@@ -87,7 +88,7 @@ function setScrollToOptions() {
 Вызов elem.scrollIntoView(top) прокручивает страницу,
 чтобы elem оказался вверху. У него есть один аргумент:
 
-- если top = true(default), то сраница будет прокручена,
+- если top = true(default), то страница будет прокручена,
 чтобы elem появился в верхней части окна.
 Верхний край элемента совмещён с верхней частью окна.
 
@@ -113,6 +114,7 @@ function setScrollIntrViewOptions(top) {
     behavior: "smooth",
   });
 }
+
 // Опции не работают в Safari
 
 //?----------------------------------------
